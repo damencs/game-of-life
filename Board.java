@@ -97,10 +97,6 @@ public class Board
         {
             return 1;
         }
-        else if (board[row][column] == 0 && survivors == 1)
-        {
-            return 0;
-        }
         // Death
         else
         {
